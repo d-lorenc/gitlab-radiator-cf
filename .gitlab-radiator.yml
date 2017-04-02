@@ -1,0 +1,5 @@
+gitlab:
+  access-token: <your access token>
+  url: https://gitlab.com
+port: 8080
+

@@ -1,0 +1,9 @@
+---
+applications:
+  - name: gitlab-radiator
+    random-route: true
+    command: node_modules/gitlab-radiator/bin/gitlab-radiator
+    buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+env:
+  GITLAB_RADIATOR_CONFIG: .gitlab-radiator.yml
+

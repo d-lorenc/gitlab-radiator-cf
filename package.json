@@ -1,0 +1,10 @@
+{
+  "name": "gitlab-radiator-cf",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "gitlab-radiator": "^1.1.10"
+  },
+  "devDependencies": {
+  }
+}
